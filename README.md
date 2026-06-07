@@ -107,10 +107,3 @@ This project is licensed under the MIT License.
 **⭐ If this repo was helpful to you, please give it a star!**
 
 For questions and suggestions, open an Issue.
-```
-
----
-
-**اگر می‌خوای چیزی اضافه یا تغییر بدم** (مثل اضافه کردن عکس، GIF، badge بیشتر، یا بخش‌های جدید)، فقط بگو. 
-
-آماده‌ام برای قدم بعدی! 🔥
