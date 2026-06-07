@@ -1,4 +1,4 @@
-Markdown# Neural Network Projects
+# Neural Network Projects
 
 <div align="center">
 
@@ -38,56 +38,79 @@ Neural-Network/
 ├── persian -ocr/                            # Persian OCR
 ├── tensorflow/                              # TensorFlow projects
 └── ...
-🚀 How to Run
-1. Clone the repository
-Bashgit clone https://github.com/AIilK/Neural-Network.git
+```
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/AIilK/Neural-Network.git
 cd Neural-Network
-2. Install dependencies
-Bashpip install -r requirements.txt
-3. Run projects
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run projects
 Each folder has its own files. Example:
-Bashcd "Building your Deep Neural Network 3"
+```bash
+cd "Building your Deep Neural Network 3"
 python "Building your Deep Neural Network.py"
-🛠️ Technologies
+```
 
-Python
-NumPy, Pandas, Matplotlib
-TensorFlow / Keras
-PyTorch
-scikit-learn
-OpenCV
+## 🛠️ Technologies
 
-📊 Main Projects
-Project,Description,Framework
-Building your Deep Neural Network,DNN implementation from scratch,NumPy
-First CNN,Basic Convolutional Network,TensorFlow/Keras
-ResNet,Residual Networks,-
-U-Net,Semantic Segmentation,-
-YOLO,Object Detection,-
-Face Detection,Face detection with FER,-
-Persian OCR,Persian character recognition,-
+- **Python**
+- **NumPy**, **Pandas**, **Matplotlib**
+- **TensorFlow** / **Keras**
+- **PyTorch**
+- **scikit-learn**
+- **OpenCV**
 
-ProjectDescriptionFrameworkBuilding your Deep Neural NetworkDNN implementation from scratchNumPyFirst CNNBasic Convolutional NetworkTensorFlow/KerasResNetResidual Networks-U-NetSemantic Segmentation-YOLOObject Detection-Face DetectionFace detection with FER-Persian OCRPersian character recognition-
-📈 Progress
+## 📊 Main Projects
 
- Professional repository structure
- Full English README
- requirements.txt
- .gitignore
- Documentation for each project
- Clean notebooks
+| Project                        | Description                     | Framework     |
+|--------------------------------|---------------------------------|---------------|
+| Building your Deep Neural Network | DNN implementation from scratch | NumPy        |
+| First CNN                      | Basic Convolutional Network     | TensorFlow/Keras |
+| ResNet                         | Residual Networks               | -            |
+| U-Net                          | Semantic Segmentation           | -            |
+| YOLO                           | Object Detection                | -            |
+| Face Detection                 | Face detection with FER         | -            |
+| Persian OCR                    | Persian character recognition   | -            |
 
-🤝 Contributing
+## 📈 Progress
+
+- [x] Professional repository structure
+- [x] Full English README
+- [x] requirements.txt
+- [x] .gitignore
+- [ ] Documentation for each project
+- [ ] Clean notebooks
+
+## 🤝 Contributing
+
 If you want to contribute:
+1. Fork the project
+2. Create a new branch
+3. Make your changes
+4. Submit a Pull Request
 
-Fork the project
-Create a new branch
-Make your changes
-Submit a Pull Request
+## 📄 License
 
-📄 License
 This project is licensed under the MIT License.
 
-⭐ If this repo was helpful to you, please give it a star!
+---
+
+**⭐ If this repo was helpful to you, please give it a star!**
+
 For questions and suggestions, open an Issue.
-text
+```
+
+---
+
+**اگر می‌خوای چیزی اضافه یا تغییر بدم** (مثل اضافه کردن عکس، GIF، badge بیشتر، یا بخش‌های جدید)، فقط بگو. 
+
+آماده‌ام برای قدم بعدی! 🔥
