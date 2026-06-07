@@ -1,4 +1,4 @@
-# Neural Network Projects
+Markdown# Neural Network Projects
 
 <div align="center">
 
@@ -7,103 +7,123 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
 
-**مجموعه‌ای از پروژه‌های یادگیری عمیق و شبکه‌های عصبی**
+**A collection of Deep Learning and Neural Network projects**
 
 </div>
 
-## 📖 معرفی
+## 📖 Introduction
 
-این ریپازیتوری شامل پیاده‌سازی‌های مختلف **شبکه‌های عصبی**، **یادگیری عمیق** و پروژه‌های مرتبط با **Computer Vision** است. بیشتر پروژه‌ها بر اساس دوره‌های آموزشی (مانند Coursera - Deep Learning Specialization از Andrew Ng) و تمرین‌های عملی پیاده‌سازی شده‌اند.
+This repository contains various implementations of **Neural Networks**, **Deep Learning**, and **Computer Vision** projects. Most of the projects are based on educational courses (such as Coursera - Deep Learning Specialization by Andrew Ng) and practical exercises.
 
-### هدف پروژه
-- یادگیری مفاهیم پایه تا پیشرفته شبکه‌های عصبی
-- پیاده‌سازی از صفر (From Scratch)
-- آشنایی با فریم‌ورک‌های مدرن (TensorFlow, PyTorch)
-- پروژه‌های عملی Computer Vision
+### Project Goals
+- Learn neural network concepts from basic to advanced
+- Implement models from scratch (From Scratch)
+- Get familiar with modern frameworks (TensorFlow, PyTorch)
+- Build practical Computer Vision applications
 
 ---
 
-## 📁 ساختار پروژه
+## 📁 Project Structure
 
 ```bash
 Neural-Network/
-├── Building your Deep Neural Network 3/     # DNN از صفر
-├── first cnn/                               # اولین شبکه کانولوشنی
+├── Building your Deep Neural Network 3/     # DNN from scratch
+├── first cnn/                               # First Convolutional Network
 ├── resnet/                                  # ResNet
-├── u-net/                                   # U-Net برای Segmentation
+├── u-net/                                   # U-Net for Segmentation
 ├── yolo/                                    # YOLO Object Detection
 ├── vgg16(transfer)/                         # Transfer Learning
-├── face detection/                          # تشخیص چهره
-├── traffic sign/                            # تشخیص علائم راهنمایی
-├── persian -ocr/                            # OCR فارسی
-├── tensorflow/                              # پروژه‌های TensorFlow
-└── ... 
-```
-
-## 🚀 نحوه اجرا
-
-### 1. کلون کردن ریپو
-```bash
-git clone https://github.com/AIilK/Neural-Network.git
+├── face detection/                          # Face Detection
+├── traffic sign/                            # Traffic Sign Detection
+├── persian -ocr/                            # Persian OCR
+├── tensorflow/                              # TensorFlow projects
+└── ...
+🚀 How to Run
+1. Clone the repository
+Bashgit clone https://github.com/AIilK/Neural-Network.git
 cd Neural-Network
-```
-
-### 2. نصب وابستگی‌ها
-```bash
-pip install -r requirements.txt
-```
-
-### 3. اجرای پروژه‌ها
-هر فولدر دارای فایل‌های جداگانه است. مثلاً:
-```bash
-cd "Building your Deep Neural Network 3"
+2. Install dependencies
+Bashpip install -r requirements.txt
+3. Run projects
+Each folder has its own files. Example:
+Bashcd "Building your Deep Neural Network 3"
 python "Building your Deep Neural Network.py"
-```
+🛠️ Technologies
 
-## 🛠️ فناوری‌ها
+Python
+NumPy, Pandas, Matplotlib
+TensorFlow / Keras
+PyTorch
+scikit-learn
+OpenCV
 
-- **Python**
-- **NumPy**, **Pandas**, **Matplotlib**
-- **TensorFlow** / **Keras**
-- **PyTorch**
-- **scikit-learn**
-- **OpenCV**
+📊 Main Projects
 
-## 📊 پروژه‌های اصلی
 
-| پروژه | توضیح | فریم‌ورک |
-|--------|-------|----------|
-| Building your Deep Neural Network | پیاده‌سازی DNN از صفر | NumPy |
-| First CNN | شبکه کانولوشنی پایه | TensorFlow/Keras |
-| ResNet | Residual Networks | - |
-| U-Net | Semantic Segmentation | - |
-| YOLO | Object Detection | - |
-| Face Detection | تشخیص چهره با FER | - |
-| Persian OCR | تشخیص کاراکتر فارسی | - |
 
-## 📈 پیشرفت
 
-- [ ] ساختار حرفه‌ای repo (در حال انجام)
-- [ ] README کامل
-- [ ] requirements.txt
-- [ ] .gitignore
-- [ ] Documentation برای هر پروژه
-- [ ] اضافه کردن notebooks تمیز
 
-## 🤝 مشارکت
 
-اگر می‌خواهید کمک کنید:
-1. Fork کنید
-2. Branch جدید بسازید
-3. تغییرات را اعمال کنید
-4. Pull Request بفرستید
 
-## 📄 مجوز
 
-این پروژه تحت مجوز MIT منتشر شده است.
 
----
 
-**⭐ اگر این ریپو برایتان مفید بود، لطفاً ستاره دهید!**
 
-برای سوالات و پیشنهادها، Issue باز کنید.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ProjectDescriptionFrameworkBuilding your Deep Neural NetworkDNN implementation from scratchNumPyFirst CNNBasic Convolutional NetworkTensorFlow/KerasResNetResidual Networks-U-NetSemantic Segmentation-YOLOObject Detection-Face DetectionFace detection with FER-Persian OCRPersian character recognition-
+📈 Progress
+
+ Professional repository structure
+ Full English README
+ requirements.txt
+ .gitignore
+ Documentation for each project
+ Clean notebooks
+
+🤝 Contributing
+If you want to contribute:
+
+Fork the project
+Create a new branch
+Make your changes
+Submit a Pull Request
+
+📄 License
+This project is licensed under the MIT License.
+
+⭐ If this repo was helpful to you, please give it a star!
+For questions and suggestions, open an Issue.
+text
