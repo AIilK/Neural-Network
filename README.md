@@ -58,50 +58,14 @@ scikit-learn
 OpenCV
 
 📊 Main Projects
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Project,Description,Framework
+Building your Deep Neural Network,DNN implementation from scratch,NumPy
+First CNN,Basic Convolutional Network,TensorFlow/Keras
+ResNet,Residual Networks,-
+U-Net,Semantic Segmentation,-
+YOLO,Object Detection,-
+Face Detection,Face detection with FER,-
+Persian OCR,Persian character recognition,-
 
 ProjectDescriptionFrameworkBuilding your Deep Neural NetworkDNN implementation from scratchNumPyFirst CNNBasic Convolutional NetworkTensorFlow/KerasResNetResidual Networks-U-NetSemantic Segmentation-YOLOObject Detection-Face DetectionFace detection with FER-Persian OCRPersian character recognition-
 📈 Progress
