@@ -87,10 +87,10 @@ python main.py
 - [x] Professional README
 - [x] .gitignore & requirements.txt
 - [x] MIT License
-- [ ] Detailed documentation for each project
-- [ ] Clean & organized notebooks
-- [ ] Model checkpoints & results
-- [ ] CI/CD pipeline improvements
+- [x] Detailed documentation for each project
+- [x] Clean & organized notebooks
+- [x] Model checkpoints & results
+- [x] CI/CD pipeline improvements
 
 ## 🤝 Contributing
 
