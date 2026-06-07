@@ -7,19 +7,19 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
 
-**A collection of Deep Learning and Neural Network projects**
+**A collection of Deep Learning and Neural Network implementations**
 
 </div>
 
-## 📖 Introduction
+## About
 
-This repository contains various implementations of **Neural Networks**, **Deep Learning**, and **Computer Vision** projects. Most of the projects are based on educational courses (such as Coursera - Deep Learning Specialization by Andrew Ng) and practical exercises.
+This repository is a comprehensive collection of **Neural Network** and **Deep Learning** projects. It serves as both a learning journey and a portfolio showcasing implementations from foundational concepts to advanced applications in Computer Vision.
 
-### Project Goals
-- Learn neural network concepts from basic to advanced
-- Implement models from scratch (From Scratch)
-- Get familiar with modern frameworks (TensorFlow, PyTorch)
-- Build practical Computer Vision applications
+### Key Objectives
+- Understand and implement neural networks **from scratch**
+- Explore modern deep learning frameworks (TensorFlow/Keras, PyTorch)
+- Build practical projects in image classification, object detection, and segmentation
+- Document the learning process from popular courses like Andrew Ng's Deep Learning Specialization on Coursera
 
 ---
 
@@ -27,16 +27,16 @@ This repository contains various implementations of **Neural Networks**, **Deep 
 
 ```bash
 Neural-Network/
-├── Building your Deep Neural Network 3/     # DNN from scratch
-├── first cnn/                               # First Convolutional Network
-├── resnet/                                  # ResNet
-├── u-net/                                   # U-Net for Segmentation
-├── yolo/                                    # YOLO Object Detection
-├── vgg16(transfer)/                         # Transfer Learning
-├── face detection/                          # Face Detection
-├── traffic sign/                            # Traffic Sign Detection
+├── Building your Deep Neural Network 3/     # DNN from scratch (NumPy)
+├── first cnn/                               # Basic Convolutional Neural Network
+├── resnet/                                  # ResNet architecture
+├── u-net/                                   # U-Net for semantic segmentation
+├── yolo/                                    # YOLO object detection
+├── vgg16(transfer)/                         # Transfer learning with VGG16
+├── face detection/                          # Face detection and recognition
+├── traffic sign/                            # Traffic sign recognition
 ├── persian -ocr/                            # Persian OCR
-├── tensorflow/                              # TensorFlow projects
+├── tensorflow/                              # Additional TensorFlow projects
 └── ...
 ```
 
@@ -53,57 +53,59 @@ cd Neural-Network
 pip install -r requirements.txt
 ```
 
-### 3. Run projects
-Each folder has its own files. Example:
+### 3. Run a project
+Navigate to the desired folder and run the scripts or notebooks:
 ```bash
 cd "Building your Deep Neural Network 3"
-python "Building your Deep Neural Network.py"
+jupyter notebook
+# or
+python main.py
 ```
 
-## 🛠️ Technologies
+## 🛠️ Technologies Used
 
-- **Python**
-- **NumPy**, **Pandas**, **Matplotlib**
-- **TensorFlow** / **Keras**
-- **PyTorch**
-- **scikit-learn**
-- **OpenCV**
+- **Languages**: Python
+- **Core Libraries**: NumPy, Pandas, Matplotlib, scikit-learn
+- **Deep Learning**: TensorFlow / Keras, PyTorch
+- **Computer Vision**: OpenCV
+- **Others**: Jupyter Notebooks
 
-## 📊 Main Projects
+## 📊 Featured Projects
 
-| Project                        | Description                     | Framework     |
-|--------------------------------|---------------------------------|---------------|
-| Building your Deep Neural Network | DNN implementation from scratch | NumPy        |
-| First CNN                      | Basic Convolutional Network     | TensorFlow/Keras |
-| ResNet                         | Residual Networks               | -            |
-| U-Net                          | Semantic Segmentation           | -            |
-| YOLO                           | Object Detection                | -            |
-| Face Detection                 | Face detection with FER         | -            |
-| Persian OCR                    | Persian character recognition   | -            |
+| Project                        | Description                          | Framework      |
+|--------------------------------|--------------------------------------|----------------|
+| Building your Deep Neural Network | Fully implemented DNN from scratch  | NumPy         |
+| First CNN                      | Introduction to Convolutional Nets  | TensorFlow/Keras |
+| ResNet                         | Deep Residual Learning              | -             |
+| U-Net                          | Image Segmentation                  | -             |
+| YOLO                           | Real-time Object Detection          | -             |
+| Face Detection                 | Facial expression & detection       | -             |
+| Persian OCR                    | Optical Character Recognition (Farsi) | -          |
 
-## 📈 Progress
+## 📈 Progress & Roadmap
 
-- [x] Professional repository structure
-- [x] Full English README
-- [x] requirements.txt
-- [x] .gitignore
-- [ ] Documentation for each project
-- [ ] Clean notebooks
+- [x] Professional README
+- [x] .gitignore & requirements.txt
+- [x] MIT License
+- [ ] Detailed documentation for each project
+- [ ] Clean & organized notebooks
+- [ ] Model checkpoints & results
+- [ ] CI/CD pipeline improvements
 
 ## 🤝 Contributing
 
-If you want to contribute:
-1. Fork the project
-2. Create a new branch
-3. Make your changes
-4. Submit a Pull Request
+Contributions are welcome! Feel free to:
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a Pull Request
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
-**⭐ If this repo was helpful to you, please give it a star!**
+**⭐ If you found this repository helpful, please star it!**
 
-For questions and suggestions, open an Issue.
+For questions, suggestions, or collaborations, feel free to open an [Issue](https://github.com/AIilK/Neural-Network/issues).
